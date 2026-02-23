@@ -55,7 +55,10 @@ mvn test
 
 Asegúrate de tener **Node.js** (v18 o superior) instalado.
 
-Navega a la carpeta `/frontend` y ejecuta:
+1. Navega a la carpeta `/frontend`.
+2. Crea un archivo `.env` copiando el contenido de `.env.example` (este paso es obligatorio para definir la URL de conexión a la API, ya que el archivo `.env` se excluye del control de versiones).
+3. Instala las dependencias y levanta el entorno:
+
 ```bash
 cd frontend
 npm install
