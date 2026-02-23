@@ -1,0 +1,11 @@
+# Env files
+.env
+backend/.env
+
+# Maven
+backend/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
